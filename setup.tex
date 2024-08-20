@@ -1,7 +1,8 @@
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[mathlf]{MinionPro}
+%\usepackage[mathlf, fullfamily]{MinionPro}
+\usepackage{mathpazo}
 \usepackage{wasysym}% provides \ocircle and \Box
 \usepackage{enumitem}% easy control of topsep and leftmargin for lists
 \usepackage{color}% used for background color
@@ -11,9 +12,10 @@
 \usepackage{typearea}
 \areaset{17cm}{26cm}
 \setlength{\topmargin}{-1cm}
-\usepackage{scrpage2}
+\usepackage{scrlayer-scrpage}
 \pagestyle{scrheadings}
 
+\addtokomafont{disposition}{\rmfamily}
 %\doublespacing
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
